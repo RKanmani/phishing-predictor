@@ -4,3 +4,4 @@ joblib
 validators
 scikit-learn
 xgboost
+gunicorn
