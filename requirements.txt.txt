@@ -1,6 +1,0 @@
-Flask
-pandas
-joblib
-validators
-scikit-learn
-xgboost
