@@ -1,0 +1,54 @@
+/* ✅ General Page Styling */
+body {
+    font-family: Arial, sans-serif;
+    background: url('/static/background.jpg') no-repeat center center fixed;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+/* ✅ Container for Centered Content */
+.container {
+    max-width: 400px;
+    margin: 100px auto;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.9);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+/* ✅ Navigation Bar */
+.navbar {
+    background-color: #333;
+    padding: 15px;
+    text-align: right;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    width: 90%;
+}
+
+.error {
+    color: red;
+    font-size: 16px;
+}
+
+.result {
+    font-size: 18px;
+    font-weight: bold;
+}
